@@ -15,7 +15,7 @@ Handle<Value> except(const char* msg) {
     return ThrowException(Exception::Error(String::New(msg)));
 }
 
-Handle<Value> x11(const Arguments& args) {
+Handle<Value> hash(const Arguments& args) {
     HandleScope scope;
 
     if (args.Length() < 1)
@@ -39,7 +39,7 @@ Handle<Value> x11(const Arguments& args) {
 
 
 void init(Handle<Object> exports) {
-    exports->Set(String::NewSymbol("x11"), FunctionTemplate::New(x11)->GetFunction());
+    exports->Set(String::NewSymbol("hash"), FunctionTemplate::New(hash)->GetFunction());
 }
 
 NODE_MODULE(x11, init)
