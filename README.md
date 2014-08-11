@@ -32,3 +32,4 @@ Credits
 * [BLAKE](http://en.wikipedia.org/wiki/BLAKE_(hash_function)) - Jean-Philippe Aumasson, Luca Henzen, Willi Meier, and Raphael C.-W. Phan
 * [Grøstl](http://en.wikipedia.org/wiki/Gr%C3%B8stl) - Praveen Gauravaram, Lars Knudsen, Krystian Matusiewicz, Florian Mendel, Christian Rechberger, Martin Schläffer, and Søren S. Thomsen
 * [X11](http://www.darkcoin.io/) - Evan Duffield
+* [node-multi-hashing](https://github.com/zone117x/node-multi-hashing) - Base module
