@@ -1,31 +1,19 @@
 {
-    "name": "multi-hashing",
-    "version": "0.0.9",
-    "main": "multihashing",
+    "name": "node-x11-hash-algo",
+    "version": "0.0.1",
+    "main": "x11",
     "author": {
-        "name": "Matthew Little",
-        "email": "zone117x@gmail.com"
+        "name": "Nathan Johnson",
+        "email": "node@njohnson.me"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-multi-hashing.git"
+        "url": "https://github.com/n-johnson/node-x11-hash-algo.git"
     },
-    "dependencies" : {
-        "bindings" : "*"
+    "dependencies": {
+        "bindings": "*"
     },
     "keywords": [
-        "scrypt",
-        "scryptjane",
-        "script-n",
-        "x11",
-        "quark",
-        "keccak_hash",
-        "skein",
-        "bcrypt",
-        "keccak",
-        "blake",
-        "shavite",
-        "fugue",
-        "sha1"
+        "x11"
     ]
 }
